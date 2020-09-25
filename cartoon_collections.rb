@@ -13,6 +13,30 @@ def square_array(array)
   new_array
 end
 
+
+def square_array(numbers)
+  # your code here
+  count = 0 
+  new_numbers = []
+  while numbers[count] < numbers.length do
+    new_numbers.push(numbers[count] ** 2)
+    count += 1
+end
+
+return new_numbers
+
+end
+
+
+
+
+
+
+
+
+
+
+
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
