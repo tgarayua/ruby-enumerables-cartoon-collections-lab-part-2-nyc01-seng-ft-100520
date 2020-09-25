@@ -41,7 +41,6 @@ def long_planeteer_calls(planeteer_calls)
   end 
 end
   new_array
-end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
