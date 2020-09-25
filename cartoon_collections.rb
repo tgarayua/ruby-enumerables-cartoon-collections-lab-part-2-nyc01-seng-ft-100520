@@ -35,9 +35,10 @@ def long_planeteer_calls(planeteer_calls)
   while index < planeteer_calls.length do
     binding.pry
     if planeteer_calls[index].length > 4 
-      return true
+      new_array << "true"
     end
-    if
+    if planeteer_calls[index].length < 4 
+      new_array << "false"
   end 
   new_array
  
