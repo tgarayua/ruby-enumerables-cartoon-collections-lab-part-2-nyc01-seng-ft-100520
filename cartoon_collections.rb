@@ -41,7 +41,6 @@ def long_planeteer_calls(planeteer_calls)
   end 
 end
   new_array
- binding.pry
 end
 
 def find_valid_calls(planeteer_calls)
