@@ -36,6 +36,7 @@ def long_planeteer_calls(planeteer_calls)
     binding.pry
     if planeteer_calls[index].length > 4 
       return true
+    end
   end 
   new_array
  
