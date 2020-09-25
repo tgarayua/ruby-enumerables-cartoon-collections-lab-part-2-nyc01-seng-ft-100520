@@ -35,6 +35,8 @@ def long_planeteer_calls(planeteer_calls)
   while index < array.length do 
     new_array << array[index].length > 4
     return TRUE
+    new_array << array[index].length < 4
+    return FALSE
     index += 1 
   end 
   new_array
