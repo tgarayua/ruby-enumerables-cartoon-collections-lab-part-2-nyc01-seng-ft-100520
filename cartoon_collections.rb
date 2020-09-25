@@ -41,6 +41,5 @@ def long_planeteer_calls(planeteer_calls)
   end 
    new_array
 end
-  new_array
 end
 
